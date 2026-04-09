@@ -1,9 +1,11 @@
 Electrochemical Sensor Signal Modeling and Machine Learning Correction Pipeline
 
 OVERVIEW
+
 This project is an end-to-end Python workflow for processing, modeling, and correcting electrochemical sensor time-series data. The system converts raw experimental outputs into structured, reproducible datasets suitable for quantitative analysis, model development, and performance evaluation across sensors, test cards, and hardware configurations.
 
 PROBLEM
+
 Electrochemical sensor measurements produce high-dimensional, noisy time-series data influenced by multiple interacting factors, including hardware variability, reference electrode drift, environmental conditions, and biological matrix effects. These factors introduce both systematic bias and stochastic variability. The central challenge is to extract a stable, representative signal and construct models that generalize across independent sensors and experimental conditions.
 
 APPROACH
